@@ -9,6 +9,9 @@
         "browser"
     ],
     "main": "main.js",
+    "scripts": {
+        "start": "node main.js"
+    },
     "author": "aaron",
     "contributors": [],
     "dependencies": {
