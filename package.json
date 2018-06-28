@@ -8,6 +8,7 @@
         "client",
         "browser"
     ],
+    "main": "main.js",
     "author": "aaron",
     "contributors": [],
     "dependencies": {
