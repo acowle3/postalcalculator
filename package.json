@@ -1,0 +1,16 @@
+{
+    "name": "postalcalculator",
+    "version": "1.0.0",
+    "keywords": [
+        "util",
+        "functional",
+        "server",
+        "client",
+        "browser"
+    ],
+    "author": "aaron",
+    "contributors": [],
+    "dependencies": {
+        "express": "^4.16.3"
+    }
+}

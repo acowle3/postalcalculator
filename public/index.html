@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Mailing Type</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h2>Postal Rate Calculator</h2>
+        <form action="/results" method="get">
+            Select Mail Type:
+            <select name="typeMail">
+                <option>Letters (Stamped)</option>
+                <option>Letters (Metered)</option>
+                <option>Large Envelopes (Flats)</option>
+                <option>First Class Package Service</option>
+            </select>
+            <br>
+            Enter Package Weight:
+            <input type="text" name="weight">
+            <br><br>
+            <button type="submit">Submit</button>
+        </form>
+    </body>
+</html>
